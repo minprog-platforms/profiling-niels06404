@@ -1,3 +1,17 @@
+# ============================================================================================================================
+#   sudoku.py
+#
+#   Platforms
+#   Niels Schröder
+#   12816566
+#
+# - Usage: python solve.py sudoku [-n REPEATS]
+# - Description: Helper file for solve.py. Creates a Sudoku class to solve a Sudoku puzzle. The sudoku is loaded from a .csv
+#   -file.
+# - Output: If the sudoku is solvable, the solved sudoku is printed to the console. Otherwise "None" is printed.
+# ============================================================================================================================
+
+
 from __future__ import annotations
 
 from itertools import chain
